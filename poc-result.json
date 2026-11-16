@@ -1,0 +1,12 @@
+{
+  "poc": "Bull SDK lock() — server-chosen locker + unbounded approval",
+  "sdk": "bull-sdk.mjs (verbatim copy of https://www.bull.family/sdk/bull.mjs)",
+  "victimBalanceBefore": "1000000",
+  "victimBalanceAfter": "0",
+  "attackerBalanceAfter": "999900",
+  "tokensLockedInAttackerLocker": "100",
+  "approvalGranted": "1606938044258990275541962092341162602522202993782792835301375",
+  "approvalIsMaxGuard": true,
+  "lockIdReturned": "1",
+  "exploited": true
+}
